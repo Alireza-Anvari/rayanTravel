@@ -6,7 +6,7 @@ import { MdLocationOn,MdLocalPhone } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div id='Footer' className='footer  container grid  w-full  bg-red-300 py-9 mx-auto md:grid-cols-2'>
+    <div id='Footer' className='footer  container grid  w-full   py-9 mx-auto md:grid-cols-2'>
           <div className="logoFooter py-1 flex flex-col justify-center items-center">
         <a href="" className=" ">
             <img src={logoImage} alt="" className='logoImage w-[40px] h-[40px] md:h-[80px] md:w-[80px] object-fit-cover mx-auto'/>
