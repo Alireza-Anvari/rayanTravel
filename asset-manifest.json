@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rayanTravel/static/css/main.0a30a363.css",
-    "main.js": "/rayanTravel/static/js/main.b2d6047a.js",
+    "main.js": "/rayanTravel/static/js/main.0caf3312.js",
     "static/js/787.d06c6304.chunk.js": "/rayanTravel/static/js/787.d06c6304.chunk.js",
     "static/media/iranBeatiful.mp4": "/rayanTravel/static/media/iranBeatiful.bc7624a0607ebca10249.mp4",
     "static/media/iranJan.jpg": "/rayanTravel/static/media/iranJan.3442411cf350e7929073.jpg",
@@ -31,11 +31,11 @@
     "static/media/customer.jpg": "/rayanTravel/static/media/customer.666aaebcf44ba3f5840d.jpg",
     "index.html": "/rayanTravel/index.html",
     "main.0a30a363.css.map": "/rayanTravel/static/css/main.0a30a363.css.map",
-    "main.b2d6047a.js.map": "/rayanTravel/static/js/main.b2d6047a.js.map",
+    "main.0caf3312.js.map": "/rayanTravel/static/js/main.0caf3312.js.map",
     "787.d06c6304.chunk.js.map": "/rayanTravel/static/js/787.d06c6304.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a30a363.css",
-    "static/js/main.b2d6047a.js"
+    "static/js/main.0caf3312.js"
   ]
 }
