@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/rayanTravel/static/css/main.0a30a363.css",
+    "main.js": "/rayanTravel/static/js/main.b2d6047a.js",
+    "static/js/787.d06c6304.chunk.js": "/rayanTravel/static/js/787.d06c6304.chunk.js",
+    "static/media/iranBeatiful.mp4": "/rayanTravel/static/media/iranBeatiful.bc7624a0607ebca10249.mp4",
+    "static/media/iranJan.jpg": "/rayanTravel/static/media/iranJan.3442411cf350e7929073.jpg",
+    "static/media/jadeh-chalus.jpg": "/rayanTravel/static/media/jadeh-chalus.7af4e516f3bee4362651.jpg",
+    "static/media/Lalezar-Regular.ttf": "/rayanTravel/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
+    "static/media/Lalezar-Regular.otf": "/rayanTravel/static/media/Lalezar-Regular.0bda14fc42cc290376a2.otf",
+    "static/media/blogImage3.jpg": "/rayanTravel/static/media/blogImage3.c4f6e3223674e0977f46.jpg",
+    "static/media/karaj1.jpg": "/rayanTravel/static/media/karaj1.c4f6e3223674e0977f46.jpg",
+    "static/media/Vazir.eot": "/rayanTravel/static/media/Vazir.7033586641859ae0b481.eot",
+    "static/media/Vazir.ttf": "/rayanTravel/static/media/Vazir.33c1845a778f7e3c1c7d.ttf",
+    "static/media/kashan1.jpg": "/rayanTravel/static/media/kashan1.0f4f82ee8b8d0c6ac13a.jpg",
+    "static/media/blogImage1.jpg": "/rayanTravel/static/media/blogImage1.3223514b80fdd91c212b.jpg",
+    "static/media/masal.jpg": "/rayanTravel/static/media/masal.6e9534302fe41f9d4eef.jpg",
+    "static/media/masal2.jpg": "/rayanTravel/static/media/masal2.50eae6f95fa2ac14b843.jpg",
+    "static/media/hormoz1.jpg": "/rayanTravel/static/media/hormoz1.e4b718a0eadfb02906a0.jpg",
+    "static/media/esfehan1.jpg": "/rayanTravel/static/media/esfehan1.298b6ac07aa928b830a0.jpg",
+    "static/media/masuleh1.jpg": "/rayanTravel/static/media/masuleh1.7e231e04b2365c1ba322.jpg",
+    "static/media/astara2.jpg": "/rayanTravel/static/media/astara2.0312dedfcdee80ddea8c.jpg",
+    "static/media/yazd1.jpg": "/rayanTravel/static/media/yazd1.e08b91d9adb71379f338.jpg",
+    "static/media/shiraz.jpg": "/rayanTravel/static/media/shiraz.8db9d7945cc2226ce8fe.jpg",
+    "static/media/Vazir.woff": "/rayanTravel/static/media/Vazir.b8234f5ef6ecbd4b502d.woff",
+    "static/media/natanz1.jpg": "/rayanTravel/static/media/natanz1.7ca3553f22e0914e74b2.jpg",
+    "static/media/kish1.jpg": "/rayanTravel/static/media/kish1.cb921b9a0723846254b4.jpg",
+    "static/media/shiraz2.jpg": "/rayanTravel/static/media/shiraz2.397d366986f3bd3f024d.jpg",
+    "static/media/blogImage2.jpg": "/rayanTravel/static/media/blogImage2.bff20bc7d1390dc8039d.jpg",
+    "static/media/Far_Contrast.ttf": "/rayanTravel/static/media/Far_Contrast.b160814461694ce8f8ca.ttf",
+    "static/media/customer.jpg": "/rayanTravel/static/media/customer.666aaebcf44ba3f5840d.jpg",
+    "index.html": "/rayanTravel/index.html",
+    "main.0a30a363.css.map": "/rayanTravel/static/css/main.0a30a363.css.map",
+    "main.b2d6047a.js.map": "/rayanTravel/static/js/main.b2d6047a.js.map",
+    "787.d06c6304.chunk.js.map": "/rayanTravel/static/js/787.d06c6304.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a30a363.css",
+    "static/js/main.b2d6047a.js"
+  ]
+}
