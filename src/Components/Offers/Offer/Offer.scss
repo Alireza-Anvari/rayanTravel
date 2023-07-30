@@ -1,0 +1,36 @@
+
+
+.card{border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 .4rem .1rem #868686;
+.bodyCard>div{border-radius: 4px;
+
+}
+    .bodyCard>div:nth-child(even)
+    {justify-self: end;
+       } .number{
+         
+        font-family: var(--fontTiter2);}
+    .cover{transition: .2s;}
+    &:hover .cover{top:0}
+.offerMore>span{border-radius: 10px;}
+.detailOffer{
+    transition: 0s !important;
+    .descriptionDetail{
+        background: #fff;
+    }
+}
+.detailOffer>div{
+    background: transparent;
+}
+.activeDetailOffer{ transition: .3s !important;;visibility: visible;width: 100vw;height: 100vh;}
+@media screen and (min-width:768px){
+    .detailPopular{
+        width: 100vw;
+        height: 100vh;
+     
+    }
+
+    
+}
+}

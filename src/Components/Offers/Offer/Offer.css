@@ -1,0 +1,44 @@
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0.4rem 0.1rem #868686;
+}
+.card .bodyCard > div {
+  border-radius: 4px;
+}
+.card .bodyCard > div:nth-child(even) {
+  justify-self: end;
+}
+.card .number {
+  font-family: var(--fontTiter2);
+}
+.card .cover {
+  transition: 0.2s;
+}
+.card:hover .cover {
+  top: 0;
+}
+.card .offerMore > span {
+  border-radius: 10px;
+}
+.card .detailOffer {
+  transition: 0s !important;
+}
+.card .detailOffer .descriptionDetail {
+  background: #fff;
+}
+.card .detailOffer > div {
+  background: transparent;
+}
+.card .activeDetailOffer {
+  transition: 0.3s !important;
+  visibility: visible;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .card .detailPopular {
+    width: 100vw;
+    height: 100vh;
+  }
+}/*# sourceMappingURL=Offer.css.map */

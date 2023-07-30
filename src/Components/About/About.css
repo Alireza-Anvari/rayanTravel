@@ -1,0 +1,32 @@
+.about {
+  font-family: var(--fontText);
+}
+.about .aboutTiter {
+  font-family: var(--fontTiter2);
+}
+.about .aboutTiter > p {
+  direction: rtl;
+  font-family: var(--fontText);
+  text-align: justify;
+  font-weight: bold;
+}
+.about img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: 1.2rem auto;
+}
+@media screen and (min-width: 768px) {
+  .about .aboutContent {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+.about .aboutContent .aboutMountains:nth-child(5) {
+  background: url(../../Assets/Image/About/iranJan.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.about video {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px #fff;
+}/*# sourceMappingURL=About.css.map */

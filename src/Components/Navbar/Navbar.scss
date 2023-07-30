@@ -1,0 +1,123 @@
+
+:root{
+    --fontText:fontVazir;
+    --fontTiter1:fontContrast;
+    --fontTiter2:fontLalezar;
+    --fontSize1:1rem;
+    --fontSize2:1.5rem;
+    --fontSize3:2rem;
+    --fontSize4:2.5rem;
+    --textColor:#202020;
+    --inputColor:hsl(330,12%,97%);
+    --primaryColor:hsl(26,93%,50%);
+    --hoverColor:hsl(26,90%,42%);
+    --backgroundTiter:#f6f5e9;
+    --boxShadow:#b3b0b0;
+
+}
+
+
+.navBarSection{
+    .header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        padding:.5rem 1rem;
+        z-index: 1000;
+        width: 100%;
+        font-family: var(--fontText);
+      
+         
+           @media screen and (max-width:768px) {
+            .navBar{
+                background-color:var(--backgroundTiter);
+                position: absolute;
+                height: max-content;
+                padding-top: 0rem ;
+                top: 0;
+                // left:0;
+                right: -100%;
+                box-sizing: border-box;
+                width: 100%;
+                transition: .3s;
+                .navList{
+                    padding-top: 2rem;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                 
+                    .navItem{
+                        
+                        // background: ;
+                        border-bottom: 1px solid var(--boxShadow);
+                        width:100%;
+                        text-align: right;
+                        
+        
+                    }
+                    .navItem:hover{
+                        background: var(--boxShadow);
+                        color:#fff
+                    }
+                    .navLink{
+                        display: block;
+                        // background-color: green;
+                        height: 100%;
+                        padding: .5rem .3rem;
+                    }
+               
+                    .btn{
+                     
+                      margin-top:10px;
+                      width:50%;
+                        background: red;
+                        cursor: pointer;
+                    }
+                    .loginBtn{
+                        background: #fff;
+                        border: 2px solid red;
+                        a{
+                            color:#202020 !important;
+        
+                        }
+                    }
+        
+                }
+                .closeNavBar{
+                    position: absolute;
+                    top: .5rem;
+                    right: 1rem;
+                    
+        
+                }
+                      
+            }
+            .activeNavbar{
+                right: 0 !important;
+            }
+        }
+        @media screen and (min-width:768px){
+            padding: 0;
+            .btn{
+                font-size: .8rem;
+            }
+            .navItem{
+                display: flex;justify-content: center;
+                align-items: center;
+                &:hover{
+                    font-weight: bold;
+                    border-bottom: 1px solid #101010;
+                }
+            }
+            
+        }
+        .navList{
+
+        }
+    }
+.changeHeader{
+    background: #c4c4c4e6;
+}
+}

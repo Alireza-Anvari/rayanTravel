@@ -1,0 +1,25 @@
+.footer {
+  font-family: var(--fontText);
+  background: rgba(196, 196, 196, 0.9019607843);
+}
+.footer h1 {
+  font-family: var(--fontTiter2);
+}
+.footer .iconFooter > * {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  color: #fff;
+}
+.footer .menuFooter .navList {
+  align-items: center;
+  justify-content: center;
+}
+.footer .menuFooter .navList .navItem {
+  display: flex;
+  justify-content: center;
+}
+.footer .menuFooter .navList .navItem a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

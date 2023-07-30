@@ -1,0 +1,88 @@
+@font-face{
+    font-family: fontContrast;
+    src:url('./Assets//Fonts//Far_Contrast/Far_Contrast/Far_Contrast.ttf')
+}
+@font-face{
+    font-family: fontVazir;
+    src:url('./Assets//Fonts/vazir/Vazir.ttf');
+    src:url('./Assets/Fonts/vazir/Vazir.eot');
+    src:url('./Assets//Fonts/vazir/Vazir.woff')
+}
+
+@font-face{
+    font-family: fontLalezar;
+    src:url('./Assets//Fonts/Lalezar-Font-fontyab.com_/Lalezar-Font/Lalezar-Regular.otf');
+    src:url('./Assets//Fonts/Lalezar-Font-fontyab.com_/Lalezar-Font/Lalezar-Regular.ttf');
+
+}
+:root{
+    --fontText:fontVazir;
+    --fontTiter1:fontContrast;
+    --fontTiter2:fontLalezar;
+    --fontSize1:1rem;
+    --fontSize2:1.5rem;
+    --fontSize3:2rem;
+    --fontSize4:2.5rem;
+    --textColor:#202020;
+    --inputColor:hsl(330,12%,97%);
+    --primaryColor:hsl(26,93%,50%);
+    --hoverColor:hsl(26,90%,42%);
+
+}
+html{scroll-behavior: smooth;}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* transition: 0.3s ease; */
+    
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding:0 1.5rem ;
+}
+
+.icon{
+    font-size: var(--fontSize3);
+    cursor: pointer;
+}
+.btn{padding: .4rem 1.5rem;
+background-color: var(--primaryColor);
+border: none;
+outline: none;
+border-radius: 3rem;
+cursor: pointer;
+}
+.btn a{color:#fff;font-weight: 500;}
+.btn:hover a{
+    color: #fff;
+}
+
+
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle{
+    color: var(--textColor);
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.secIntro p{
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+/* img,video{width: 100%;height: auto;} */
+.logoImage{border-radius: 100%;}
+
+input{font-size: 100%;}

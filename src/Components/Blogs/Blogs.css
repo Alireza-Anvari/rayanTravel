@@ -1,0 +1,26 @@
+.Blogs {
+  font-family: var(--fontText);
+}
+.Blogs .blogTiter {
+  font-family: var(--fontTiter2);
+}
+.Blogs .blogTiter > p {
+  direction: rtl;
+  font-family: var(--fontText);
+  text-align: justify;
+  font-weight: bold;
+}
+.Blogs .blogCards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+  padding: 100px 10px;
+}
+@media screen and (min-width: 768px) {
+  .Blogs .blogCards {
+    gap: 100px 20px;
+  }
+}/*# sourceMappingURL=Blogs.css.map */

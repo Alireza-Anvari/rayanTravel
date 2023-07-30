@@ -1,0 +1,85 @@
+.slider{
+    position: relative;
+    z-index: 100;
+    font-family: var(--fontText);
+    .slides{
+        .slide{
+            position: absolute;
+            opacity: 0;
+            transition: 1s;
+            .showTitleSlide{
+               transition: .5s;
+               transition-delay: .5s;
+               opacity: 0;
+               &>p{
+                font-family: var(--fontText);
+                font-size: .6rem;
+                background: white;
+                margin-top:.2rem;
+                padding: .1rem .5rem;
+                // opacity: .8;
+               }
+            }
+            .activeShowTitleSlide{
+                top: 50%;
+                opacity: 1;
+            }
+        }
+        .slide.active{
+            opacity: 1;
+            transition: 1s;
+            transform: scale(1.2);
+        }
+        @media screen  and (min-width:768px) {
+            .showTitleSlide >p:nth-child(1) {
+                      padding: .6rem;
+                      font-size: 1.1rem;
+                            
+          }
+          .showTitleSlide >p:nth-child(2) {
+                      padding: .6rem;
+                      font-size: 1.1rem;
+                      width: 120%;          
+                          }
+                             .activeShowTitleSlide{
+              top: 60% !important;
+              right: 15% !important;
+              opacity: 1;
+          }
+      }
+    
+    }
+    .controls{
+       position: absolute; 
+       z-index: 990;
+       top: 50%;
+       left: 0;
+        transform: translate(0,-50%);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 .5rem;
+        // background-color: red;
+
+        #prevControl{
+            
+
+            transform: rotateY(180deg);
+        }
+
+    }
+        .controls *:hover{
+            transform: scale(1.1)
+        }
+    @media screen and (max-width:768px) {
+    .controls{
+        font-size: 1.5rem;
+    }
+        
+    }
+    @media screen and (min-width:768px){
+               .controls{ padding: 2rem !important;   }   
+               .controls>span{ font-size: 1.5rem;  }   
+    }
+
+}

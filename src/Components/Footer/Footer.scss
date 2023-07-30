@@ -1,0 +1,29 @@
+
+.footer{
+    font-family: var(--fontText);
+    background:rgba(196, 196, 196, 0.9019607843);
+    h1{
+        font-family: var(--fontTiter2);
+        // font-size: 1.3rem;
+    }
+    .iconFooter>*{
+        width: 25px;
+        height:25px;
+        border-radius: 50px;
+        color:#fff;
+    }
+    .menuFooter{
+        .navList{
+            align-items: center;
+            justify-content: center;
+            .navItem{
+                display: flex;
+                justify-content: center;
+                & a:hover{font-weight: bold; cursor: pointer;}
+            }
+        }
+       
+    }
+    .contactUsFooter{
+    }
+}
